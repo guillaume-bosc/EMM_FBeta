@@ -1,0 +1,26 @@
+Description	Target	Measure	E11	E10	E011
+[saltires = 1.0], [1.0 <= quarters <= 4.0], [0.0 <= sunstars <= 4.0]	[green, yellow, white, orange]	0.5019607843138805	6.0	4.0	4.0
+[crosses = 1.0], [saltires = 1.0], [0.0 <= sunstars <= 3.0]	[red, green, blue, orange]	0.418998716303335	5.0	3.0	6.0
+[0.0 <= crosses <= 1.0], [saltires = 1.0]	[red, green, blue, orange]	0.3371273712737416	6.0	10.0	5.0
+[1.0 <= crosses <= 2.0], [0.0 <= sunstars <= 4.0]	[red, green, blue, orange]	0.3044476327115154	7.0	16.0	4.0
+[quarters = 1.0], [0.0 <= sunstars <= 3.0]	[green, blue, yellow, orange]	0.2865761689291096	5.0	11.0	5.0
+[saltires = 0.0], [0.0 <= quarters <= 1.0], [6.0 <= sunstars <= 22.0]	[red, green, blue, black]	0.2733333333333781	2.0	4.0	4.0
+[7.0 <= sunstars <= 15.0]	[red, green, blue, white, black]	0.2733333333333781	2.0	4.0	4.0
+[6.0 <= sunstars <= 10.0]	[green, blue, yellow, black]	0.23804056639886098	2.0	4.0	5.0
+[saltires = 0.0], [quarters = 0.0], [5.0 <= sunstars <= 14.0]	[red, green, blue, yellow, black]	0.20666666666666905	2.0	7.0	4.0
+[crosses = 0.0], [saltires = 0.0], [quarters = 0.0], [1.0 <= sunstars <= 14.0]	[red, green, yellow, black]	0.11734357189976957	11.0	51.0	6.0
+[crosses = 0.0], [saltires = 0.0], [quarters = 0.0], [2.0 <= sunstars <= 14.0]	[red, green, blue, black]	0.10666666666664525	2.0	16.0	4.0
+[4.0 <= sunstars <= 7.0]	[green, blue, yellow, black, orange]	0.09070294784578109	1.0	15.0	1.0
+[9.0 <= sunstars <= 50.0]	[green, blue, yellow, black]	0.08419441255269569	1.0	5.0	6.0
+[quarters = 0.0], [2.0 <= sunstars <= 3.0]	[green, white, black]	0.05236547490332372	3.0	4.0	16.0
+[sunstars = 0.0]	[green, orange]	0.05189008229858899	16.0	98.0	4.0
+[crosses = 0.0], [saltires = 0.0], [0.0 <= sunstars <= 10.0]	[red, black]	0.030128205140901587	43.0	119.0	3.0
+[1.0 <= crosses <= 2.0], [saltires = 1.0], [2.0 <= sunstars <= 15.0]	[green, blue, yellow, orange]	0.02696078431393538	1.0	5.0	9.0
+[0.0 <= crosses <= 1.0], [1.0 <= quarters <= 4.0], [2.0 <= sunstars <= 7.0]	[green, blue, yellow, orange]	0.02696078431393538	1.0	5.0	9.0
+[1.0 <= quarters <= 4.0], [1.0 <= sunstars <= 4.0]	[green, yellow, white, orange]	0.007223942208627154	1.0	8.0	9.0
+[1.0 <= crosses <= 2.0], [saltires = 0.0]	[red, green, blue, yellow, white, black]	0.0	0.0	11.0	6.0
+[crosses = 0.0], [saltires = 0.0], [quarters = 1.0]	[red, green, orange]	0.0	0.0	9.0	16.0
+[0.0 <= quarters <= 1.0], [3.0 <= sunstars <= 4.0]	[red, green, blue, black]	0.0	0.0	7.0	6.0
+[crosses = 0.0], [saltires = 0.0], [sunstars = 5.0]	[red, green, blue]	0.0	0.0	6.0	25.0
+[quarters = 1.0], [5.0 <= sunstars <= 50.0]	[blue, orange]	0.0	0.0	7.0	16.0
+[0.0 <= crosses <= 1.0], [saltires = 0.0], [quarters = 0.0], [3.0 <= sunstars <= 5.0]	[red, white, orange]	0.0	0.0	9.0	16.0

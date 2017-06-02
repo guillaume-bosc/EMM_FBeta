@@ -1,0 +1,25 @@
+Description	Target	Measure	E11	E10	E011
+[saltires = 1.0], [0.0 <= sunstars <= 2.0]	[red, green, blue, orange]	0.4381374722840184	6.0	5.0	5.0
+[saltires = 1.0], [1.0 <= quarters <= 4.0]	[blue, yellow, orange]	0.3450336071697052	6.0	8.0	6.0
+[1.0 <= crosses <= 2.0], [0.0 <= sunstars <= 7.0]	[red, blue, orange]	0.24281718789725876	7.0	18.0	6.0
+[1.0 <= quarters <= 4.0], [0.0 <= sunstars <= 1.0]	[green, blue, orange]	0.2406380027740604	5.0	11.0	7.0
+[7.0 <= sunstars <= 15.0]	[blue, white, black, orange]	0.19176536943032452	1.0	5.0	2.0
+[crosses = 1.0], [1.0 <= quarters <= 4.0], [0.0 <= sunstars <= 3.0]	[blue, orange]	0.1809523809537634	4.0	4.0	12.0
+[crosses = 0.0], [saltires = 0.0], [6.0 <= sunstars <= 50.0]	[yellow, white, black, orange]	0.16954314720809968	1.0	6.0	2.0
+[saltires = 0.0], [5.0 <= sunstars <= 9.0]	[green, blue, black, orange]	0.16141001855284123	1.0	8.0	1.0
+[saltires = 0.0], [quarters = 0.0], [1.0 <= sunstars <= 3.0]	[green, black]	0.09434069365559661	14.0	36.0	15.0
+[4.0 <= sunstars <= 10.0]	[green, blue, black]	0.09034825870646224	2.0	16.0	5.0
+[quarters = 0.0], [2.0 <= sunstars <= 50.0]	[green, white, black]	0.07800650054317085	5.0	15.0	14.0
+[crosses = 0.0], [quarters = 0.0], [0.0 <= sunstars <= 15.0]	[black]	0.0483896185722652	49.0	107.0	3.0
+[2.0 <= sunstars <= 3.0]	[blue, orange]	0.01428571428677708	2.0	6.0	14.0
+[1.0 <= crosses <= 2.0], [saltires = 0.0]	[green, white, black]	0.0	0.0	11.0	19.0
+[crosses = 0.0], [1.0 <= quarters <= 4.0]	[yellow, black, orange]	0.0	0.0	10.0	4.0
+[1.0 <= crosses <= 2.0], [2.0 <= sunstars <= 50.0]	[blue, black]	0.0	0.0	6.0	16.0
+[saltires = 0.0], [quarters = 0.0], [4.0 <= sunstars <= 6.0]	[white, orange]	0.0	0.0	9.0	22.0
+[9.0 <= sunstars <= 50.0]	[orange]	0.0	0.0	6.0	26.0
+[saltires = 0.0], [quarters = 1.0], [0.0 <= sunstars <= 4.0]	[red, black]	0.0	0.0	8.0	46.0
+[quarters = 1.0], [5.0 <= sunstars <= 50.0]	[red, green, black]	0.0	0.0	7.0	27.0
+[quarters = 1.0], [1.0 <= sunstars <= 10.0]	[black]	0.0	0.0	12.0	52.0
+[1.0 <= quarters <= 4.0], [2.0 <= sunstars <= 6.0]	[black]	0.0	0.0	6.0	52.0
+[0.0 <= crosses <= 1.0], [3.0 <= sunstars <= 4.0]	[red, orange]	-0.10148067894357013	1.0	6.0	18.0
+[6.0 <= sunstars <= 10.0]	[yellow, black]	-0.20811588021577665	2.0	4.0	33.0

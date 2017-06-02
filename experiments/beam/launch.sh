@@ -1,0 +1,20 @@
+#!/bin/bash
+DATA=$1
+BEAM_WIDTH=1000
+TOPK_COUNT=1000
+MIN_SUP=6
+MAX_SUP=1000
+MAX_REDUNDANCY=1.4
+
+ARRF_NAME="${DATA##*/}"
+ARRF_NAME="${ARRF_NAME%.*}"
+
+POSSIBLE_MEASURES=(RAcc WRAcc RelativeF1 WeightedRelativeF1 RelativeFBeta WeightedRelativeFBeta)
+for MEASURE_PARAM in ${POSSIBLE_MEASURES[@]}; do
+	./beam.sh $DATA $MIN_SUP $MAX_SUP $BEAM_WIDTH $TOPK_COUNT $MAX_REDUNDANCY $MEASURE_PARAM
+	RESULT="results/""$ARRF_NAME""_""$MIN_SUP""_"$MAX_SUP"_""$BEAM_WIDTH""_""$TOPK_COUNT""_""$MAX_REDUNDANCY""/""$MEASURE_PARAM""/result.log"
+	./topcardistribution.py $RESULT
+done
+
+FOLDER="results/""$ARRF_NAME""_""$MIN_SUP""_"$MAX_SUP"_""$BEAM_WIDTH""_""$TOPK_COUNT""_""$MAX_REDUNDANCY"
+./topcarqualities.py $FOLDER
